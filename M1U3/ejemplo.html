@@ -7,6 +7,72 @@
     <title>Document</title>
 </head>
 <body>
-    <h2></h2>
+    <div ='Principal'> 
+        <!-- Seccion de Foto y Nombre-->
+        <img src="foto-cv.jpg">
+        <h1>Oscar A. Quevedo</h1>
+
+        <!-- Seccion Datos Personales -->
+        <fieldset>
+            <legend> Datos Generales </legend>
+            <ul>
+                <li> Edad: 33</li>
+                <li> Email: oscar.a.quevedo@gmail.com</li>
+                <li> Provincia: Córdoba</li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend> Estudios </legend>
+            <ul>
+                <li> Secundario: Completo</li>
+                <li> Diplomatura en programación web full stack con React JS </li>
+            </ul>
+        </fieldset>
+
+        <!-- Seccion para contactarse -->
+        <fieldset>
+            <legend> Complete el formulario para contartarse </legend>
+            <form action=""></form>
+            <p>                
+                <label for=""> Nombre: </label>
+                <input type="text">
+            </p>
+            <p>
+                <input type="text" placeholder="email@ejemplo.com">
+            </p>
+            <p>
+                <label for=""> ¿Le parece interesante el cv? </label>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="¿Le parece interesante el cv?" value="Si">
+                        <label for="Si"> Si </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="¿Le parece interesante el cv?" value="Si">
+                        <label for="No"> No </label>
+                    </li>
+                </ul>                
+            </p>
+            <p>
+                <label for="Programacion"> Programacion </label>
+                <select name="Programacion" id="Programacion">
+                    <option value="Front End"> Front End </option>
+                    <option value="Back End"> Back End </option>
+                    <option value="Full Stack"> Full Stack </option>
+                </select>
+            </p>
+            <p>
+                <label for="Comentarios"> Comentarios </label>
+                <textarea name="Comentarios" id="" cols="30" rows="10"></textarea>
+            </p>
+            <P>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </P>
+
+            
+        </fieldset>
+    </div>
+   
 </body>
 </html>
