@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cv.css">
+    <title>Document</title>
+</head>
+<body>
+    <div ='Principal'> 
+        <!-- Seccion de Foto y Nombre-->
+        <img src="foto-cv.jpg">
+        <h1>Oscar A. Quevedo</h1>
+
+        <!-- Seccion Datos Personales -->
+        <fieldset>
+            <legend> <span class="Datos">Datos Generales</span></legend>
+            <ul>
+                <li class="CuerpoDatos"> <span class="TituloD"> Edad: </span> 33 </li>
+                <li class="CuerpoDatos"> <span class="TituloD"> Email: </span> oscar.a.quevedo@gmail.com </li>
+                <li class="CuerpoDatos"> <span class="TituloD"> Provincia: </span> Córdoba </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend> <span class="Estudios"> Estudios </span></legend>
+            <ul>
+                <li class="CuerpoE"> <span class="TituloC"> Secundario: </span> Completo </li>
+                <li class="CuerpoE"> Diplomatura en programación web full stack con React JS </li>
+            </ul>
+        </fieldset>
+
+        <!-- Seccion para contactarse -->
+        <fieldset>
+            <legend> <span class="Formulario"> Complete el formulario para contartarse </span></legend>
+            <p>                
+                <label for=""> Nombre: </label>
+                <input type="text">
+            </p>
+            <p>
+                <input type="text" placeholder="email@ejemplo.com">
+            </p>
+            <p>
+                <label for=""> ¿Le parece interesante el cv? </label>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="¿Le parece interesante el cv?" value="Si">
+                        <label for="Si"> Si </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="¿Le parece interesante el cv?" value="Si">
+                        <label for="No"> No </label>
+                    </li>
+                </ul>                
+            </p>
+            <p>
+                <label for="Programacion"> Programacion </label>
+                <select name="Programacion" id="Programacion">
+                    <option value="Front End"> Front End </option>
+                    <option value="Back End"> Back End </option>
+                    <option value="Full Stack"> Full Stack </option>
+                </select>
+            </p>
+            <p>
+                <label for="Comentarios"> Comentarios </label>
+                <textarea name="Comentarios" id="" cols="24" rows="10"></textarea>
+            </p>
+            <P>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </P>
+
+            
+        </fieldset>
+    </div>
+   
+</body>
+</html>

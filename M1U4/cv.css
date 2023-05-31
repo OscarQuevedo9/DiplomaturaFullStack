@@ -1,0 +1,52 @@
+.Datos{
+    color: black;
+    font-size: 30px;
+    background-color: red;
+    text-transform: uppercase;
+}
+
+.CuerpoDatos{
+    color: #693909;
+}
+
+.TituloD{
+    color: rebeccapurple;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Estudios{
+    color: yellow;
+    font-size: 30px;
+    background-color: blue;
+    text-transform: uppercase;
+}
+
+.CuerpoE{
+    color: #196F3D;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.TituloC{
+    color: #6C3483;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.Formulario{
+    color: green;
+    font-size: 30px;
+    background-color: plum;
+    text-transform: uppercase;
+}
+
+p{
+    color: #212F3C;
+    background-color: #F9E79F;
+    font-style: italic;
+    font-weight: bold;
+    width: 200px;
+    height: 100px;
+}
