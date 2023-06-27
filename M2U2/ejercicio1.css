@@ -1,0 +1,37 @@
+.contenedor {
+    background-color: whitesmoke;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    border: 2px solid black;
+}
+
+.item {
+    background-color: #ccc;
+    width: 33%;
+    flex-grow: 1;
+    margin: 0px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item:nth-child(1) {
+    background-color: red;
+    color: white;
+}
+
+.item:nth-child(2) {
+    background-color: blue;
+    color: white;
+}
+
+.item:nth-child(3) {
+    background-color: green;
+    color: white;
+}
