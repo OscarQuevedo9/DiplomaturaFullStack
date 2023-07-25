@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div>
+      <h1>Ejercicio 1</h1>
+      <script>
+        const valor = parseInt(
+          prompt("Ingrese la distancia para determinar el vehiculo", "")
+        );
+
+        switch (true) {
+          case valor <= 1000:
+            document.write("Tu mejor medio de transporte es a pie");
+            break;
+          case valor > 1000 && valor <= 10000:
+            document.write("Tu mejor medio de transporte es bicicleta");
+            break;
+          case valor > 10000 && valor <= 30000:
+            document.write("Tu mejor medio de transporte es colectivo");
+            break;
+          case valor > 30000 && valor <= 100000:
+            document.write("Tu mejor medio de transporte es auto");
+            break;
+          case valor > 100000:
+            document.write("Tu mejor medio de transporte es avion");
+            break;
+          default:
+            document.write("debe ingresar un valor numero positivo.");
+        }
+      </script>
+
+      <h1>Ejercicio 2</h1>
+      <script>
+        function encontrarMayor(array) {
+          if (array.length === 0) {
+            return undefined;
+          }
+
+          let mayor = array[0];
+
+          for (let i = 1; i < array.length; i++) {
+            if (array[i] > mayor) {
+              mayor = array[i];
+            }
+          }
+
+          return mayor;
+        }
+        const numeros = [12, 5, 23, 8, 16, 42];
+        const mayor = encontrarMayor(numeros);
+        document.write("El número más grande es:", mayor);
+      </script>
+    </div>
+  </body>
+</html>
