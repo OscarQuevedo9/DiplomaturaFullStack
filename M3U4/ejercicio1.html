@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cambiar Color de Fondo</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .square {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      display: inline-block;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="square" style="background-color: red;" onclick="changeBackgroundColor('red')"></div>
+  <div class="square" style="background-color: green;" onclick="changeBackgroundColor('green')"></div>
+  <div class="square" style="background-color: blue;" onclick="changeBackgroundColor('blue')"></div>
+
+  <script>
+    function changeBackgroundColor(color) {
+      document.body.style.backgroundColor = color;
+    }
+  </script>
+</body>
+</html>
