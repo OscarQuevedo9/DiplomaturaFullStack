@@ -44,7 +44,7 @@ const Nosotros = (props) => {
         </p>
       </div>
       <div className="Foto">
-        <img src="../../../public/images/nosotros/nosotros01.jpeg"  alt="fotocarnet"/>
+        <img src="../../../public/img/nosotros/nosotros01.jpeg"  alt="fotocarnet"/>
       </div>
     </main>
   );
