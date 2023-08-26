@@ -1,10 +1,10 @@
-import React from "react";
+import '../../styles/components/layout/Footer.css';
 
 const Footer = (props) => {
   return (
-    <Footer>
+    <footer>
       <p>Diseñado por Oscar Quevedo - &copy;año</p>
-    </Footer>
+    </footer>
   );
 };
 

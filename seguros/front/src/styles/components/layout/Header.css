@@ -1,0 +1,46 @@
+header {
+    background-color: #db1414;
+    padding: 16px 0;
+    text-align: center;
+  }
+  
+  header .holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header .holder img {
+    margin-right: 20px;
+  }
+  
+  header .holder .text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header .holder h1.Nombre {
+    color: white;
+    font-size: 44px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  header .holder h2.Servicios {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  header .holder h3.Mat {
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
+    font-style: italic;
+  }

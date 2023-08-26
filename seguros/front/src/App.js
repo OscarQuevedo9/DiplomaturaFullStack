@@ -1,5 +1,7 @@
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import './App.css';
 import Header from "./components/layout/Header";
 import Nav from "./components/layout/Nav";
 import Footer from "./components/layout/Footer";
@@ -12,10 +14,8 @@ import Contacto from "./pages/Contacto";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
       <Header />
-
-      
+      <BrowserRouter>
         <Nav />
         <Routes>
           <Route path="/" element={<HomePage />} />

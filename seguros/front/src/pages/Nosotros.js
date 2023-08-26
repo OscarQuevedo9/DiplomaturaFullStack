@@ -1,8 +1,11 @@
-import React from "react";
+import '../styles/components/pages/Nosotros.css';
 
 const Nosotros = (props) => {
   return (
     <main className="holder">
+      <div className="nosotrosimg">
+        <img src="/img/nosotros/nosotros01.jpeg" width="550" alt="fotocarnet"/>
+      </div>
       <div className="nosotros">
         <h2>Nosotros</h2>
         <p>
@@ -43,9 +46,7 @@ const Nosotros = (props) => {
           enorgullece ofrecer un servicio confiable y de confianza.
         </p>
       </div>
-      <div className="Foto">
-        <img src="../../../public/img/nosotros/nosotros01.jpeg"  alt="fotocarnet"/>
-      </div>
+      
     </main>
   );
 };

@@ -1,10 +1,10 @@
-import React from "react";
+import '../styles/components/pages/HomePage.css';
 
 const HomePage = (props) => {
   return (
     <main className="holder">
       <div className="homeimg">
-        <img src="../../public/img/logo.png" alt="BalanzadelaJusticia" />
+      <img src="/img/home/home2.jpeg" width="550"  alt="balanzadelajusticia"/>
       </div>
       <div className="columnas">
         <div className="bienvenidos">
